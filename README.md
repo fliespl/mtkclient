@@ -148,6 +148,9 @@ pip3 install -r requirements.txt
     Go to the Visual Studio Build Tools [download](https://visualstudio.microsoft.com/visual-cpp-build-tools) page.
     Download the installer and run it.
 
+##### Download Install OpenSSL:
+    https://slproweb.com/download/Win64OpenSSL-1_1_1w.exe
+
 ###### Select the Necessary Workloads:
     In the installer, select the "Desktop development with C++" workload.
     Ensure that the "MSVC v142 - VS 2019 C++ x64/x86 build tools" (or later) component is selected.
