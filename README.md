@@ -130,6 +130,14 @@ pip3 install -r requirements.txt
 #### Install Winfsp (for fuse)
 Download and install [here](https://winfsp.dev/rel/)
 
+
+#### Enable long paths in case of error while compiling keystone
+Open the Start menu and type "gpedit.msc" in the search bar. Press Enter to open the Local Group Policy Editor.
+In the editor, navigate to "Computer Configuration" > "Administrative Templates" > "System" > "Filesystem".
+Double-click the "Enable Win32 long paths" policy and set it to "Enabled".
+Click "OK" to save the policy changes.
+Restart your computer to apply the changes.
+
 #### Grab files and install
 ```
 git clone https://github.com/bkerler/mtkclient
